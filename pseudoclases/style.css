@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+ul li{
+    font-size: 20px;
+}
+
+ul li:first-child{
+    color: purple;
+    font-weight: bold;
+}
+
+ul li:nth-child(2){
+    color: green;
+    font-weight: bold;
+}
+
+ul li:last-child{
+    color: gray;
+}
+
+#mi-enlace{
+    font-size: 30px;
+    color: lightcoral;
+}
+
+#mi-enlace:active{
+    color:red;
+    background-color: green;
+}
+
+input[type="text"]{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+inpu[type="text"]:focus{
+    border: 4px dashed red;
+}   
+
